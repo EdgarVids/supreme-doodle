@@ -1,6 +1,6 @@
 package stlib
 
-type agent struct {
+type AgentId struct {
 	AccountId       string `json:"accountId"`
 	Symbol          string `json:"symbol"`
 	Headquarters    string `json:"headquarters"`

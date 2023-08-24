@@ -7,6 +7,8 @@ import (
 	"net/url"
 	"os"
 	"time"
+
+	"github.com/EdgarVids/supreme-doodle/internal/stlib"
 )
 
 func main() {
@@ -28,4 +30,6 @@ func main() {
 	body, _ := io.ReadAll(resp.Body)
 	fmt.Println(string(body))
 	fmt.Println(resp.Status)
+	a := stlib.AgentId{}
+    fmt.Print(a)
 }
